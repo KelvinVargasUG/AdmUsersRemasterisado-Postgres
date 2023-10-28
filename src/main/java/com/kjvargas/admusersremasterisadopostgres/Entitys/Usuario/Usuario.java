@@ -18,7 +18,7 @@ public class Usuario extends CamposObligatorios {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_usuario")
+        @Column(name = "id_usuario")
     private Long id;
 
     @NotBlank(message = "{app.fiel.notEmpty.error}")
